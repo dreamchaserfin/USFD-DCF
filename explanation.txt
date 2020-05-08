@@ -1,0 +1,21 @@
+### Issue 1
+
+Row 120 `Capital Expenditures` should be directly linked to row 143, rather than the change from period to period in row 143.
+Remember `Capital Expenditures` are a cash flow not a balance sheet item.
+
+
+### Issue 2
+
+Row 108 `Depreciaton and Amortization` only contains the `Depreciation` and not `Amortization`
+Solution:
+Update this row to include `Amortization`
+
+
+### Issue 3
+
+Row 92 `Accumulated Other Comprehensive Loss` is linked to `Net Profit` in the same way that `Retained Earnings` is.
+This meant sthat the P&L is double counting `Net profit` and its effect on `Equity`.
+
+Solution:
+Keep `Accumulated Other Comprehensive Loss` constant at $(54)'000. 
+Changes in this line item relate to items that aren't shown in the P&L above, like losses and gains in some financial instruments.
